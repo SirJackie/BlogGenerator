@@ -2,3 +2,6 @@
 **/__pycache__/
 /Venv/
 /wheels/
+
+output.html
+config.json
