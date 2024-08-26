@@ -11,7 +11,7 @@ markdown_text = """
 """
 
 # 转换为 HTML
-html = markdown.markdown(markdown_text)
+html = markdown.markdown(markdown_text, extensions=['tables', 'fenced_code'])
 
 # 输出 HTML
 print(html)
